@@ -1,0 +1,17 @@
+// lab8 fopen()
+FILE *fp = open(filename,"mode");
+// "rb" (3 bytes)
+// "wb" (3 bytes)
+
+// lab9 open()
+int f = open(filename, "mode", perms) 
+//O_RDONLY reads only and doesn't create it if it isn't created unless you use O_CREAT
+// O_WRONLY | O_CREAT | O_TRUN
+// or the current flag so that you can turn on a flag
+// and the current flag with its opposite to turn off the flag
+
+* check if a bit is set by Bitwise AND
+if (byte & flag) == flag
+
+* check if a bit is not set
+if (byte & flag) == 0
